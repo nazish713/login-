@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        .container{
+            background-color: darksalmon;
+            border:5px  double;
+            padding: 40px;       /*space aa jaaati hai content me*/
+            /* margin: 140px;           border kay bahar space */
+            border-radius: 21px;
+            width: 50%;
+            margin-left: 230px;
+        
+        }
+        marquee{
+            color: burlywood;
+            size: 90px;
+            
+        }
+        h1{
+            text-align: center;
+        }
+        body{
+
+             background:url("nature.jpg");
+             background-size: cover;
+
+        }
+        
+
+       
+
+
+    </style>
+
+</head>
+<body>
+    <!-- <h1>Tourism</h1> -->
+
+
+   <marquee direction="left">
+     <h2>Welcome to awesome page   if you are interested then login with filling the correct information</h2> </marquee>
+    <h1>Hello Viewer</h1>
+    <div class="container">
+    <h1>Login page</h1>
+    <form action="/actin_page.php">
+   
+     NAME:
+    <input type="text"   placeholder="enter your first name">
+    <input type="text"   placeholder="enter your surname">
+    <input type="text" placeholder="enter your lastname">
+    <br>
+
+    <p>
+    EMAIL:
+    <input type="email" placeholder="enter your email id" required>
+    </p>
+
+    <br>
+    ENTER PASSWORD:
+    <input type="password" placeholder="enter new password ">
+    CONFIRM:
+    <input type="password" placeholder="confirm password">
+    <br>
+
+    <p>
+    <input type="submit" value="submit">
+    </p>
+
+    </form>
+
+    </div>
+</body>
+</html>
